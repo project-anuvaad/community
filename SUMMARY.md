@@ -20,4 +20,4 @@
 ## ENGAGE
 
 * [Source Code Repository](https://github.com/project-anuvaad/anuvaad)
-* [Discuss](https://github.com/project-anuvaad/discussions)
+* [Discuss](https://github.com/project-anuvaad/community/discussions)
