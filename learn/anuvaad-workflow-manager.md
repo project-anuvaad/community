@@ -39,7 +39,7 @@ An example workflowCode: WF\_A\_FCBMTKTR WF = Workflow A = Async FC = File Conve
 
 WFM has 2 types of IDs involved in the jobs that hep uniquely identify a job and its intermediate tasks: jobID & taskID. jobID: This is a alphanumeric ID that uniquely identifies a job in the system. jobIDs are generated for both Sync and Async Jobs. Format: \<use\_case>-\<random\_string>-<13-digit epoch time> taskID: A job contains multiple intermediate tasks, taskID is a unique ID used to idenity each of those tasks. A combination of these taskIDs mapped to a given jobID can help trace an entire job through the system. Format: \<module\_code>-<13-digit epoch time>
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ### Modules
 

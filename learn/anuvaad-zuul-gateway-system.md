@@ -38,4 +38,4 @@ Anuvaad Zuul uses 3 Pre Filters namely: Correlation, Auth, Rbac. Correlation: Fi
 
 [Zuul repo](https://github.com/Netflix/zuul)
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
