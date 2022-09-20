@@ -6,6 +6,11 @@
 
 * [Architecture](learn/architecture.md)
 * [Technology Stack](learn/technology-stack.md)
+* [Anuvaad Zuul Gateway System](learn/anuvaad-zuul-gateway-system.md)
+* [Anuvaad Workflow Manager](learn/anuvaad-workflow-manager.md)
+* [Anuvaad Module Config Guidelines](learn/anuvaad-module-config-guidelines.md)
+* [NMT Inference](learn/nmt-inference.md)
+* [Anuvaad Translator](learn/anuvaad-translator.md)
 
 ## USE
 
@@ -16,6 +21,7 @@
   * [Login and auth token](use/integration/login-and-auth-token.md)
   * [Supported Language pairs and translation models](use/integration/supported-language-pairs-and-translation-models.md)
   * [Translate texts](use/integration/translate-texts.md)
+* [Service Contracts](use/service-contracts.md)
 
 ## ENGAGE
 
