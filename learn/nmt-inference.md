@@ -85,7 +85,7 @@ Run app.py to start the service with all the packages installed
 python src/app.py
 ```
 
-For more information about api documentation, please check @ [https://github.com/project-anuvaad/anuvaad/blob/dev-nmt-inference/docs/contracts/apis/](https://github.com/project-anuvaad/anuvaad/blob/dev-nmt-inference/docs/contracts/apis/)
+For more information about api documentation, please check @ [https://github.com/project-anuvaad/aaib4-inference/tree/main/docs/contracts](https://github.com/project-anuvaad/aaib4-inference/tree/main/docs/contracts)
 
 ### License
 
