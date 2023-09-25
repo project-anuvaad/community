@@ -4,7 +4,16 @@ description: Architecture
 
 # Architecture
 
-![](../.gitbook/assets/Anuvvad\_Architecture.png)
+The architecture is around 2 major blocks :&#x20;
+
+```
+1. Document Digitization
+2. Document Translation
+```
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Document Digitization Flow</p></figcaption></figure>
+
+![Document Translation](../.gitbook/assets/Anuvvad\_Architecture.png)
 
 #### Components
 

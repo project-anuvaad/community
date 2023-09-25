@@ -38,7 +38,7 @@ UTM is User Translation Memory, This is slightly different from TMX, here there 
 
 Let’s say, We have a sentence ‘S1’ in a document ‘D1’, Anuvaad’s translation of this sentence is ‘T1’. Let’s say that the user on encountering this, changes the translation ‘T1’ of sentence ‘S1’ to ‘T2’. Now, Anuvaad remembers this such that, in any document, say ‘D2’ in this case, whenever there’s ‘S1’ and NMT translates it to ‘T1’, Anuvaad automatically overrides the translation to ‘T2’. However, let’s say NMT got better with time and now translates ‘S1’ to ‘T3’, in this case, Anuvaad dosen’t override it because the user context was ‘S1’ —> ‘T1’ and not ‘S1’ —> ‘T3’.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 ### Modules
 
