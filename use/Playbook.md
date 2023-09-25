@@ -76,4 +76,4 @@ After a certain time, by going to the [Translation Dashboard](https://users.anuv
 
 <figure><img src="../.gitbook/assets/Screenshot from 2023-09-26 01-32-26.png" alt=""><figcaption></figcaption></figure>
 
-Users can make necessary changes to the document using Anuvaad'easy editor which is developed seeing document translators forefront and download the translated document back in the desired format.&#x20;
+Users can make necessary changes to the document using Anuvaad's easy editor which is developed by seeing document translators forefront, and later on download the translated document back to their system in the desired format.&#x20;
