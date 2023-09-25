@@ -11,7 +11,7 @@ The architecture is around 2 major blocks :&#x20;
 2. Document Translation
 ```
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Document Digitization Flow</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Document Digitization Flow</p></figcaption></figure>
 
 ![Document Translation](../.gitbook/assets/Anuvvad\_Architecture.png)
 
