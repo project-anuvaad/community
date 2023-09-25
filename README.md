@@ -4,6 +4,8 @@ description: Overview
 
 # Sunbird Anuvaad Overview
 
-`Project Anuvaad` is an open-sourced project funded by EkStep foundation. Anuvaad is a productivity tool that leverages AI and machine learning technologies to accomplish end to end document translation.&#x20;
+`Project Anuvaad` is an open-sourced project funded by EkStep foundation.&#x20;
 
-`Project Anuvaad` is REST APIs driven hence any third party system can use various functionality. One such popular functionality is sentence translation.
+Anuvaad is an AI based open source Document Translation Platform to _digitize and translate_ documents in Indic languages at scale. Anuvaad provides easy-to-edit capabilities on top the plug & play NMT models. Separate instances of Anuvaad are deployed to [Diksha](https://diksha.anuvaad.org/) (NCERT), [Supreme Court of India ](https://jud.anuvaad.org/)(SUVAS) and Supreme Court of Bangladesh (Amar Vasha).
+
+`Project Anuvaad` is REST APIs driven and hence any third party system can use various features like sentence translation, layout detection etc
