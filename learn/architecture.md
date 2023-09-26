@@ -1,19 +1,17 @@
 ---
-description: Architecture
+description: Architecture of Anuvaad
 ---
 
 # Architecture
 
 The architecture is around 2 major blocks :&#x20;
 
-```
-1. Document Digitization
-2. Document Translation
-```
+* Document Digitization
+* Document Translation
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Document Digitization Flow</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt="" width="563"><figcaption><p>Document Digitization Flow</p></figcaption></figure>
 
-![Document Translation](../.gitbook/assets/Anuvvad\_Architecture.png)
+![Document Translation Flow](../.gitbook/assets/Anuvvad\_Architecture.png)
 
 #### Components
 
