@@ -1,8 +1,12 @@
 ---
-description: Various video tutorial demonstrating features and usage of Anuvaad.
+description: >-
+  Various video tutorials demonstrating features and step-by-step instructions
+  to utilize the best out of Anuvaad!
 ---
 
 # Tutorial videos
+
+
 
 {% embed url="https://youtu.be/8Fq7kmVZjAU?si=5WciagIa-y_0hIyh" %}
 Introduction
