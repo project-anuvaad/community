@@ -14,7 +14,7 @@ Registration: [https://users.anuvaad.org/user/signup#](https://users.anuvaad.org
 
 Once a user reaches the Sign Up page, they have to fill in the required details as shown below:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p><a href="https://users.anuvaad.org/user/signup">https://users.anuvaad.org/user/signup#</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p><a href="https://users.anuvaad.org/user/signup">https://users.anuvaad.org/user/signup#</a></p></figcaption></figure>
 
 Upon successful submission, an E-Mail will be sent to the registered ID with a verification link
 
@@ -58,11 +58,41 @@ If an Indic language is selected as the source, by default _Transliteration_ fea
 
 Upon clicking submit, the translated sentence will be displayed along with the model used to perform the translation. Using this feature, a stakeholder can quickly check the accuracy of the translation performed by Anuvaad.
 
+## Digitize Document
+
+Digitize Document feature helps to convert scanned documents into editable digital format by preserving the structure. This process recognizes text in scanned (non hand-written for now) documents and converts it into searchable text.
+
+To perform a document digitization, click on the **Digitize Document** option on the landing page of Anuvaad. You will be greeted with a screen as below
+
+<figure><img src="../.gitbook/assets/Screenshot from 2023-09-27 00-08-34.png" alt=""><figcaption></figcaption></figure>
+
+User may select a document/image and choose the appropriate source language and then trigger the digitization process. A pop-up window appears which shows the progress of the ongoing process. This is an async job and will happen in the background. The time taken will be dependent on the nature of the uploaded file
+
+<figure><img src="../.gitbook/assets/Screenshot from 2023-09-27 00-28-55.png" alt="" width="563"><figcaption></figcaption></figure>
+
+The status of all tasks given by user to Anuvaad can be viewed on the [Digitization Dashboard](https://users.anuvaad.org/document-digitization) as below
+
+<figure><img src="../.gitbook/assets/Screenshot from 2023-09-27 00-23-41.png" alt=""><figcaption></figcaption></figure>
+
+If the status of a job is completed, you can view the result and make changes by clicking on the **view document icon**, which is second in the last column under the label **Action.**
+
+<figure><img src="../.gitbook/assets/Screenshot from 2023-09-27 00-21-31.png" alt=""><figcaption></figcaption></figure>
+
+User can make changes, if any, and once done, the digitized document can be downloaded by clicking on the download button in the top right corner in the desired format.
+
+{% hint style="info" %}
+Anuvaad digitization works well on documents which have non selectable content. Its mostly tested in scanned files
+{% endhint %}
+
 ## Translate Document
 
 The translate document feature enables the user to upload a document and get its translated version. The key highlight of the feature is that Anuvaad tries to maintain the original structure of the document in the best possible manner.
 
 To perform a document translation, click on the **Translate Document** option on the landing page of Anuvaad. You will be greeted with a screen as below
+
+{% hint style="info" %}
+**Pro tip**: If the document to be translated does not contain unicode fonts, please perform document digitization and then translate the digitized document.
+{% endhint %}
 
 <figure><img src="../.gitbook/assets/Screenshot from 2023-09-26 01-23-22.png" alt=""><figcaption></figcaption></figure>
 
@@ -77,3 +107,10 @@ After a certain time, by going to the [Translation Dashboard](https://users.anuv
 <figure><img src="../.gitbook/assets/Screenshot from 2023-09-26 01-32-26.png" alt=""><figcaption></figcaption></figure>
 
 Users can make necessary changes to the document using Anuvaad's easy editor which is developed by seeing document translators forefront, and later on download the translated document back to their system in the desired format.&#x20;
+
+The blue icon in the bottom right corner is to use the merge feature. In case two or more text blocks need to be combined into a single unit, it could be used.&#x20;
+
+{% hint style="info" %}
+All macro-level features are explained in detail in the Tutorial videos section.
+{% endhint %}
+

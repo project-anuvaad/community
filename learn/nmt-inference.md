@@ -38,7 +38,7 @@ We are leveraging an open-source project called “openNMT” and also exploring
 * Unigram
 * Tune model parameters and hyper parameters to improve accuracy.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Modules
 

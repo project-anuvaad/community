@@ -15,6 +15,7 @@
 ## USE
 
 * [Playbook](use/Playbook.md)
+* [Tutorial videos](use/tutorial-videos.md)
 * [API Host Endpoints](use/api-host-endpoints.md)
 * [Integration](use/integration/README.md)
   * [Registration](use/integration/registration.md)
