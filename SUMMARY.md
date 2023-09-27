@@ -9,6 +9,7 @@
 * [Anuvaad Zuul Gateway System](learn/anuvaad-zuul-gateway-system.md)
 * [Anuvaad Workflow Manager](learn/anuvaad-workflow-manager.md)
 * [Anuvaad Module Config Guidelines](learn/anuvaad-module-config-guidelines.md)
+* [Model Retraining](learn/model-retraining.md)
 * [NMT Inference](learn/nmt-inference.md)
 * [Anuvaad Translator](learn/anuvaad-translator.md)
 
