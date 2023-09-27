@@ -26,6 +26,8 @@ This is exhaustive but the best approach. At least a small sample size of the da
 
 Certain websites will have the same data in multiple languages. The idea is to somehow find matching pairs of sentences from them. Scraping could be done using frameworks such as [selenium](https://www.selenium.dev/) and sentence matching could be done by using techniques such as [LaBSE](https://huggingface.co/sentence-transformers/LaBSE). This method if used properly can produce huge amounts of data without much manual effort. however random manual verification is recommended to ensure data accuracy
 
+A lot of sample crawlers for reference are available in this [repo](https://github.com/project-anuvaad/anuvaad-corpus-tools/tree/master)
+
 To do sentence matching of scraped sentences, Anuvaad aligner also could be used, which is implemented using LaBSE. The specs for [Aligner](https://anuvaad.sunbird.org/use/service-contracts#aligner) is available [here](https://github.com/project-anuvaad/anuvaad/blob/master/anuvaad-etl/anuvaad-extractor/aligner/docs/etl-aligner-api-contract.yml)&#x20;
 
 #### Purchasing or using an open-sourced dataset
