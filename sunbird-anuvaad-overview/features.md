@@ -1,12 +1,11 @@
 ---
-description: Features of Anuvaad
+description: >-
+  Anuvaad is loaded with lots of features to provide the optimal experience for
+  the end user to smoothen the process of document translation. The notable
+  features are highlighted below:
 ---
 
 # Features
-
-## Anuvaad Features
-
-Anuvaad is loaded with lots of features to provide the optimal experience for the end user to smoothen the process of document translation. The notable features are highlighted below:
 
 ### Document Digitization
 
