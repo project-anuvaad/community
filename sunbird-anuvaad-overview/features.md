@@ -1,5 +1,5 @@
 ---
-description: Fetaures of ANuvaad
+description: Features of Anuvaad
 ---
 
 # Features
