@@ -10,4 +10,4 @@ Anuvaad is an AI based open source Document Translation Platform to _digitize an
 
 <figure><img src=".gitbook/assets/image (5).png" alt="" width="563"><figcaption></figcaption></figure>
 
-`Project Anuvaad` is REST APIs driven and hence any third party system can use various features like sentence translation, layout detection etc
+`Project Anuvaad` is REST APIs driven and hence any third party system can use various features like sentence translation, layout detection etc.
