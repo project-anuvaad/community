@@ -7,6 +7,7 @@
 
 * [Architecture](learn/architecture.md)
 * [Technology Stack](learn/technology-stack.md)
+* [Modulewise Appendix](learn/modulewise-appendix.md)
 * [Anuvaad Zuul Gateway System](learn/anuvaad-zuul-gateway-system.md)
 * [Anuvaad Workflow Manager](learn/anuvaad-workflow-manager.md)
 * [Anuvaad Module Config Guidelines](learn/anuvaad-module-config-guidelines.md)
