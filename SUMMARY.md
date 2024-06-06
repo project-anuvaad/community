@@ -1,20 +1,24 @@
 # Table of contents
 
 * [Sunbird Anuvaad Overview](README.md)
+  * [Features](sunbird-anuvaad-overview/features.md)
 
 ## LEARN
 
 * [Architecture](learn/architecture.md)
 * [Technology Stack](learn/technology-stack.md)
+* [Modulewise Appendix](learn/modulewise-appendix.md)
 * [Anuvaad Zuul Gateway System](learn/anuvaad-zuul-gateway-system.md)
 * [Anuvaad Workflow Manager](learn/anuvaad-workflow-manager.md)
 * [Anuvaad Module Config Guidelines](learn/anuvaad-module-config-guidelines.md)
+* [Model Retraining](learn/model-retraining.md)
 * [NMT Inference](learn/nmt-inference.md)
 * [Anuvaad Translator](learn/anuvaad-translator.md)
 
 ## USE
 
 * [Playbook](use/Playbook.md)
+* [Video Tutorials](use/video-tutorials.md)
 * [API Host Endpoints](use/api-host-endpoints.md)
 * [Integration](use/integration/README.md)
   * [Registration](use/integration/registration.md)

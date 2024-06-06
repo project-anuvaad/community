@@ -32,10 +32,10 @@ Anuvaad uses JWT auth tokens for authentication and authorization purposes. The 
 
 ### Source Code
 
-``[`Source Code for`` `**`Anuvaad Zuul`**](https://github.com/project-anuvaad/anuvaad/tree/master/anuvaad-api/anuvaad-zuul-api-gw)**``**
+[`Source Code for`` `**`Anuvaad Zuul`**](https://github.com/project-anuvaad/anuvaad/tree/master/anuvaad-api/anuvaad-zuul-api-gw)
 
 Anuvaad Zuul uses 3 Pre Filters namely: Correlation, Auth, Rbac. Correlation: Filter to add a correlation ID to the inbound request. Auth: Filter to perform Authentication check on the inbound request. Rbac: Filter to perform Authorization check on the inbound request. API redirection configuration is provided in the [application.properties](https://github.com/project-anuvaad/anuvaad/blob/master/anuvaad-api/anuvaad-zuul-api-gw/anuvaad-zuul/src/main/resources/application.properties)
 
 [Zuul repo](https://github.com/Netflix/zuul)
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>

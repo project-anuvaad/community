@@ -72,13 +72,13 @@ python app.py
 
 ### APIs and Documentation
 
-Details of the APIs can be found here: [https://raw.githubusercontent.com/project-anuvaad/anuvaad/wfmanager\_feature/anuvaad-etl/anuvaad-workflow-mgr/docs/etl-wf-manager-api-contract.yml](https://raw.githubusercontent.com/project-anuvaad/anuvaad/wfmanager\_feature/anuvaad-etl/anuvaad-workflow-mgr/docs/etl-wf-manager-api-contract.yml)
+Details of the APIs can be found here: [https://raw.githubusercontent.com/project-anuvaad/anuvaad/master/anuvaad-etl/anuvaad-workflow-mgr/docs/etl-wf-manager-kafka-contract.yml](https://raw.githubusercontent.com/project-anuvaad/anuvaad/master/anuvaad-etl/anuvaad-workflow-mgr/docs/etl-wf-manager-kafka-contract.yml)
 
-Details of the requests flowing in and out through kafka can be found here: [https://raw.githubusercontent.com/project-anuvaad/anuvaad/wfmanager\_feature/anuvaad-etl/anuvaad-workflow-mgr/docs/etl-wf-manager-kafka-contract.yml](https://raw.githubusercontent.com/project-anuvaad/anuvaad/wfmanager\_feature/anuvaad-etl/anuvaad-workflow-mgr/docs/etl-wf-manager-kafka-contract.yml)
+Details of the requests flowing in and out through kafka can be found here: [https://raw.githubusercontent.com/project-anuvaad/anuvaad/master/anuvaad-etl/anuvaad-workflow-mgr/docs/etl-wf-manager-kafka-contract.yml](https://raw.githubusercontent.com/project-anuvaad/anuvaad/master/anuvaad-etl/anuvaad-workflow-mgr/docs/etl-wf-manager-kafka-contract.yml)
 
 ### Configs
 
-Wokflows have to be configured in a .yaml file as shown in the following document: [https://raw.githubusercontent.com/project-anuvaad/anuvaad/wfmanager\_feature/anuvaad-etl/anuvaad-workflow-mgr/config/etl-wf-manager-config.yml](https://raw.githubusercontent.com/project-anuvaad/anuvaad/wfmanager\_feature/anuvaad-etl/anuvaad-workflow-mgr/config/etl-wf-manager-config.yml)
+Wokflows have to be configured in a .yaml file as shown in the following document: [https://raw.githubusercontent.com/project-anuvaad/anuvaad/master/anuvaad-etl/anuvaad-workflow-mgr/config/etl-wf-manager-workflow-config-users.yml](https://raw.githubusercontent.com/project-anuvaad/anuvaad/master/anuvaad-etl/anuvaad-workflow-mgr/config/etl-wf-manager-workflow-config-users.yml)
 
 ### License
 
