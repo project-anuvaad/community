@@ -18,24 +18,23 @@
 * [NMT Inference](learn/nmt-inference.md)
 * [Anuvaad Translator](learn/anuvaad-translator.md)
 
-***
+## MODULES
 
-* [Modules](modules/README.md)
-  * [User management](modules/user-management.md)
-  * [Document converter](modules/document-converter.md)
-  * [ZUUL](modules/zuul.md)
-  * [Auditor](modules/auditor.md)
-  * [OCR Content handler](modules/ocr-content-handler.md)
-  * [Block merger](modules/block-merger.md)
-  * [Content Handler](modules/content-handler.md)
-  * [Workflow manager](modules/workflow-manager.md)
-  * [Document Digitization](modules/document-digitization.md)
-  * [File uploader](modules/file-uploader.md)
-  * [Aligner](modules/aligner.md)
-  * [Tokenizer](modules/tokenizer.md)
-  * [ETL Translator](modules/etl-translator.md)
-  * [File translator](modules/file-translator.md)
-  * [Cronjob](modules/cronjob.md)
+* [User management](modules/user-management.md)
+* [Document converter](modules/document-converter.md)
+* [ZUUL](modules/zuul.md)
+* [Auditor](modules/auditor.md)
+* [OCR Content handler](modules/ocr-content-handler.md)
+* [Block merger](modules/block-merger.md)
+* [Content Handler](modules/content-handler.md)
+* [Workflow manager](modules/workflow-manager.md)
+* [Document Digitization](modules/document-digitization.md)
+* [File uploader](modules/file-uploader.md)
+* [Aligner](modules/aligner.md)
+* [Tokenizer](modules/tokenizer.md)
+* [ETL Translator](modules/etl-translator.md)
+* [File translator](modules/file-translator.md)
+* [Cronjob](modules/cronjob.md)
 
 ## USE
 
