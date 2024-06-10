@@ -33,9 +33,9 @@ curl --location --request POST 'https://auth.anuvaad.org/anuvaad/user-mgmt/v1/us
     "users": [ 
         { 
             "name": "Jainy Joy", 
-            "userName": "jainy.joy@tarento.com", 
-            "password": "Welcome@123", 
-            "email": "jainy.joy@tarento.com", 
+            "userName": "sample.user@anuvaad.com", 
+            "password": "password123", 
+            "email": "sample.user@anuvaad.com", 
             "orgID" : "ANUVAAD", 
             "roles": [ 
                 { 
@@ -80,7 +80,7 @@ Whitelisted API to verify and complete the registration process on Anuvaad.
 curl --location --request POST 'https://auth.anuvaad.org/anuvaad/user-mgmt/v1/users/verify-user' \
 --header 'Content-Type: application/json' \
 --data-raw '{ 
-    "userName": "jainy.joy@tarento.com", 
+    "userName": "sample.user@anuvaad.com", 
     "userID": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" 
 }'
 ```
@@ -105,8 +105,8 @@ Whitelisted API for login.
 curl --location --request POST 'https://auth.anuvaad.org/anuvaad/user-mgmt/v1/users/login' \
 --header 'Content-Type: application/json' \
 --data-raw '{ 
-    "userName": "jainy.joy@tarento.com", 
-    "password": "Jainy@123" 
+    "userName": "sample.user@anuvaad.com", 
+    "password": "password123" 
 }'
 ```
 </details>
@@ -130,7 +130,7 @@ curl --location --request POST 'https://auth.anuvaad.org/anuvaad/user-mgmt/v1/us
 --header 'auth-token;' \
 --header 'Content-Type: application/json' \
 --data-raw '{ 
-    "userName": "jainy.joy@tarento.com" 
+    "userName": "sample.user@anuvaad.com" 
 }'
 ```
 </details>
@@ -216,7 +216,7 @@ API for forgot password.
 curl --location --request POST 'https://auth.anuvaad.org/anuvaad/user-mgmt/v1/users/forgot-password' \
 --header 'Content-Type: application/json' \
 --data-raw '{ 
-    "userName": "jainy.joy@tarento.com" 
+    "userName": "sample.user@anuvaad.com" 
 }'
 ```
 </details>
@@ -240,7 +240,7 @@ curl --location --request POST 'https://auth.anuvaad.org/anuvaad/user-mgmt/v1/us
 --header 'x-user-id: 7505827e810344b98db9433b8bab4f3d1606377202908' \
 --header 'Content-Type: application/json' \
 --data-raw '{ 
-    "userName": "jainy.joy@tarento.com", 
+    "userName": "sample.user@anuvaad.com", 
     "password": "xxxxxxx" 
 }'
 ```
@@ -274,7 +274,7 @@ curl --location --request POST 'https://auth.anuvaad.org/anuvaad/user-mgmt/v1/us
         { 
             "name": "Test User", 
             "userName": "testest04@gmail.com", 
-            "password": "Welcome@123", 
+            "password": "password1123", 
             "email": "test@mail.com", 
             "phoneNo": "", 
             "roles": [ 
