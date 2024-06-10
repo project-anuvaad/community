@@ -1,6 +1,6 @@
 # User management
 
-Here is the formatted content in Markdown with details about the User Management module, API details, and usage instructions, including foldable 
+
 
 Feature Branch name: `user-mangement_feature`  
 API Contract: [here](#)
