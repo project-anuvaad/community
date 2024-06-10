@@ -8,7 +8,7 @@
 * [Architecture](learn/architecture.md)
 * [Technology Stack](learn/technology-stack.md)
 * [Repository structure and developers guide](learn/repo-structure.md)
-* [Setting up Anuvaad on your won](learn/setting-up.md)
+* [Setting up Anuvaad on your own](learn/setting-up.md)
 * [Git branching strategies](learn/branching-strategy.md)
 * [Modulewise Appendix](learn/modulewise-appendix.md)
 * [Anuvaad Zuul Gateway System](learn/anuvaad-zuul-gateway-system.md)
