@@ -1,6 +1,8 @@
-# Anuvaad Branching Strategy
+# Git branching strategies
 
 Anuvaad follows the standard **feature-master** type of branching strategy for code maintenance. The releases happen through the master branch via release tags.
+
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 ## Branches
 
@@ -32,10 +34,7 @@ Apart from the feature branches, individual devs will also own these branches.
 
 ## Code Check-in
 
-- **Feature Branches:** Code check-in to feature branches can be done by anyone; there’s no need for a review as such. These branches are mainly for the devs to test their code. The use case developed in this branch will have to be dev-tested on the **‘Dev’ environment** before a merge request to the **‘develop’ branch** is raised.
-
-- **Develop Branch:** Code check-in to the develop branch should only happen after a **Peer Review**. Merge to develop will only happen once the code is dev-tested on the Dev environment. It should be noted that a merge to develop should ensure that the code quality is up to the mark, all standards are followed, and it doesn’t break anything that is already merged to the develop branch by other devs. QA testing must happen on this branch deployed in a dedicated environment for QA/UAT. Any bugs reported will be fixed in the feature branch, reviewed, and then merged back to the develop branch. QA signoff happens on this branch.
-
-- **Master Branch:** Code check-in to the master branch will only happen from the develop branch and NO feature branches. Any merge to the master branch apart from the hotfix branch MUST come from the develop branch only. Merge from develop to master should happen only after an extensive code review from the leads. Only a select few members of the team will have access to merge the code to the master branch. The onus of the master branch is on the Technology leads of the team. Once the code is merged to master, a final round of regression testing must take place before the code is tagged for release.
-
-- **Hotfix Branch:** Code check-in to the hotfix branch can be done by individual devs once it is reviewed by a peer and the leads. This branch feeds into the master only after a second round of review. QA must happen on the hotfix branch before it is merged to master. The merge to master must also be released only after regression testing is done on the fix.
+* **Feature Branches:** Code check-in to feature branches can be done by anyone; there’s no need for a review as such. These branches are mainly for the devs to test their code. The use case developed in this branch will have to be dev-tested on the **‘Dev’ environment** before a merge request to the **‘develop’ branch** is raised.
+* **Develop Branch:** Code check-in to the develop branch should only happen after a **Peer Review**. Merge to develop will only happen once the code is dev-tested on the Dev environment. It should be noted that a merge to develop should ensure that the code quality is up to the mark, all standards are followed, and it doesn’t break anything that is already merged to the develop branch by other devs. QA testing must happen on this branch deployed in a dedicated environment for QA/UAT. Any bugs reported will be fixed in the feature branch, reviewed, and then merged back to the develop branch. QA signoff happens on this branch.
+* **Master Branch:** Code check-in to the master branch will only happen from the develop branch and NO feature branches. Any merge to the master branch apart from the hotfix branch MUST come from the develop branch only. Merge from develop to master should happen only after an extensive code review from the leads. Only a select few members of the team will have access to merge the code to the master branch. The onus of the master branch is on the Technology leads of the team. Once the code is merged to master, a final round of regression testing must take place before the code is tagged for release.
+* **Hotfix Branch:** Code check-in to the hotfix branch can be done by individual devs once it is reviewed by a peer and the leads. This branch feeds into the master only after a second round of review. QA must happen on the hotfix branch before it is merged to master. The merge to master must also be released only after regression testing is done on the fix.
