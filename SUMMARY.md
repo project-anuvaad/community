@@ -3,6 +3,11 @@
 * [Sunbird Anuvaad Overview](README.md)
   * [Features](sunbird-anuvaad-overview/features.md)
 
+## USE
+
+* [Playbook](use/Playbook.md)
+* [Video Tutorials](use/video-tutorials.md)
+
 ## LEARN
 
 * [Architecture](learn/architecture.md)
@@ -10,43 +15,40 @@
 * [Repository structure and developers guide](learn/repo-structure.md)
 * [Setting up Anuvaad on your own](learn/setting-up.md)
 * [Git branching strategies](learn/branching-strategy.md)
-* [Modulewise Appendix](learn/modulewise-appendix.md)
-* [Anuvaad Zuul Gateway System](learn/anuvaad-zuul-gateway-system.md)
-* [Anuvaad Workflow Manager](learn/anuvaad-workflow-manager.md)
 * [Anuvaad Module Config Guidelines](learn/anuvaad-module-config-guidelines.md)
-* [Model Retraining](learn/model-retraining.md)
-* [NMT Inference](learn/nmt-inference.md)
-* [Anuvaad Translator](learn/anuvaad-translator.md)
 
 ## MODULES
 
+* [Modulewise Appendix](modules/modulewise-appendix.md)
+* [Anuvaad Workflow Manager](modules/anuvaad-workflow-manager.md)
 * [User management](modules/user-management.md)
 * [Document converter](modules/document-converter.md)
-* [ZUUL](modules/zuul.md)
 * [Auditor](modules/auditor.md)
 * [OCR Content handler](modules/ocr-content-handler.md)
 * [Block merger](modules/block-merger.md)
 * [Content Handler](modules/content-handler.md)
-* [Workflow manager](modules/workflow-manager.md)
 * [Document Digitization](modules/document-digitization.md)
 * [File uploader](modules/file-uploader.md)
 * [Aligner](modules/aligner.md)
-* [Tokenizer](modules/tokenizer.md)
 * [ETL Translator](modules/etl-translator.md)
 * [File translator](modules/file-translator.md)
+* [Anuvaad Zuul Gateway System](modules/anuvaad-zuul-gateway-system.md)
+* [Anuvaad Translator](modules/anuvaad-translator.md)
+* [Tokenizer](modules/tokenizer.md)
 * [Cronjob](modules/cronjob.md)
 
-## USE
+***
 
-* [Playbook](use/Playbook.md)
-* [Video Tutorials](use/video-tutorials.md)
-* [API Host Endpoints](use/api-host-endpoints.md)
-* [Integration](use/integration/README.md)
-  * [Registration](use/integration/registration.md)
-  * [Login and auth token](use/integration/login-and-auth-token.md)
-  * [Supported Language pairs and translation models](use/integration/supported-language-pairs-and-translation-models.md)
-  * [Translate texts](use/integration/translate-texts.md)
-* [Service Contracts](use/service-contracts.md)
+* [Legacy](legacy/README.md)
+  * [Model Retraining](legacy/model-retraining.md)
+  * [NMT Inference](legacy/nmt-inference.md)
+  * [Integration](legacy/integration/README.md)
+    * [Registration](legacy/integration/registration.md)
+    * [Login and auth token](legacy/integration/login-and-auth-token.md)
+    * [Supported Language pairs and translation models](legacy/integration/supported-language-pairs-and-translation-models.md)
+    * [Translate texts](legacy/integration/translate-texts.md)
+  * [Service Contracts](legacy/service-contracts.md)
+  * [API Host Endpoints](legacy/api-host-endpoints.md)
 
 ## ENGAGE
 
