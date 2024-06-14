@@ -36,6 +36,7 @@
 * [Anuvaad Translator](modules/anuvaad-translator.md)
 * [Tokenizer](modules/tokenizer.md)
 * [Cronjob](modules/cronjob.md)
+* [NMT](modules/nmt.md)
 
 ***
 
