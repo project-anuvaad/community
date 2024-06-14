@@ -9,7 +9,7 @@ description: >-
 ## Account Creation
 
 {% hint style="info" %}
-<mark style="color:red;">The automated onboarding process is disabled for now to restrict resource usage. For time being, please fill out the details</mark> [<mark style="color:blue;">here</mark>](https://users.anuvaad.org/user/request-signup) <mark style="color:red;">and we will reach back to you soon with login details. please send a mail in case you didn't receive a response within a day.</mark>&#x20;
+<mark style="color:red;">The automated onboarding process is disabled for now to restrict resource usage. For time being, please fill out the details</mark> [<mark style="color:blue;">here</mark>](https://users.anuvaad.org/user/request-signup) <mark style="color:red;">and we will reach back to you soon with login details (Remember to check spam as well). please send a mail in case you didn't receive any response within a day.</mark>&#x20;
 {% endhint %}
 
 Users shall onboard themselves on Anuvaad via the link below:\
