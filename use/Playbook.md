@@ -18,7 +18,7 @@ Registration: [https://users.anuvaad.org/user/signup#](https://users.anuvaad.org
 
 Once a user reaches the Sign Up page, they have to fill in the required details as shown below:
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p><a href="https://users.anuvaad.org/user/signup">https://users.anuvaad.org/user/signup#</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p><a href="https://users.anuvaad.org/user/signup">https://users.anuvaad.org/user/signup#</a></p></figcaption></figure>
 
 Upon successful submission, an E-Mail will be sent to the registered ID with a verification link
 

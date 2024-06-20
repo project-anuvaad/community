@@ -22,7 +22,7 @@ Anuvaad uses the current state-of-the-art Transformer model to achieve target se
 
 
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 We are leveraging an open-source project called “openNMT” and also exploring “FairSeq”(IndicTrans) from the perspective of enhancement and usage. The deeplearning platform used is pytorch
 
@@ -38,7 +38,7 @@ We are leveraging an open-source project called “openNMT” and also exploring
 * Unigram
 * Tune model parameters and hyper parameters to improve accuracy.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Modules
 
