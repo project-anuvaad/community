@@ -4,8 +4,6 @@ description: Frequently asked questions about Anuvaad
 
 # FAQ
 
-## FAQ
-
 <details>
 
 <summary>1. How to host Anuvaad locally?</summary>
