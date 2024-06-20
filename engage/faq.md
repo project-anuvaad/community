@@ -40,7 +40,7 @@ Fork the repo, make the necessary feature, and create a PR. We will review and m
 
 <summary>3. How to contact maintainers for credentials?</summary>
 
-Check discussions or reach out to \[nlp-nmt@tarento.com]\(mailto:nlp-nmt@tarento.com).
+Check discussions or reach out to  nlp-nmt@tarento.com
 
 </details>
 
@@ -64,7 +64,7 @@ Refer to the API specifications.
 
 <summary>6. I need assistance in setting up Anuvaad in my organization's infrastructure. Who can help?</summary>
 
-Reach out to \[nlp-nmt@tarento.com]\(mailto:nlp-nmt@tarento.com) or feel free to raise a request in the discussions section.
+Reach out to nlp-nmt@tarento.com or feel free to raise a request in the discussions section.
 
 </details>
 
@@ -72,6 +72,6 @@ Reach out to \[nlp-nmt@tarento.com]\(mailto:nlp-nmt@tarento.com) or feel free to
 
 <summary>7. Are there any videos of Anuvaad usage and codebase available?</summary>
 
-Yes, they are available here: \[Anuvaad KT Videos]\(https://anuvaad.sunbird.org/engage/kt-videos)
+Yes, they are available here: https://anuvaad.sunbird.org/engage/kt-videos
 
 </details>
