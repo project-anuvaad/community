@@ -18,11 +18,12 @@ For every X hours, a cron job creates a CSV file, and analytics are drawn based 
 
 
     <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Organization-wise Sentences Translated in SUVAS </p></figcaption></figure>
-3.  **Organization-wise Dashboard**\
+3. **Organization-wise Dashboard**\
 
 
-    <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>SUVAS Organization-wise Dashboard</p></figcaption></figure>
-4.  **Reviewer Metrics**\
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>SUVAS Reviewer Metrics</p></figcaption></figure>
+
+4. **Reviewer Metrics**\
 
 
-    <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>SUVAS Reviewer Metrics</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>SUVAS Organization-wise Dashboard</p></figcaption></figure>
