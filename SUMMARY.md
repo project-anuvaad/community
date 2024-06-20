@@ -35,7 +35,6 @@
 * [Anuvaad Zuul Gateway System](modules/anuvaad-zuul-gateway-system.md)
 * [Anuvaad Translator](modules/anuvaad-translator.md)
 * [Tokenizer](modules/tokenizer.md)
-* [Cronjob](modules/cronjob.md)
 * [NMT](modules/nmt.md)
 
 ***
