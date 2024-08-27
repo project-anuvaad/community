@@ -11,7 +11,7 @@ The architecture is around 2 major blocks :&#x20;
 
 <figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>Document Digitization Flow</p></figcaption></figure>
 
-![Document Translation Flow](../.gitbook/assets/Anuvvad\_Architecture.png)
+<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXds1qaPJ4cBh-jW6zTz_XqXBXjQYL-dl_w9RgeONJv1fW37071qZYHvyx4KwhEN3IRojPbjkOAMsDq5DCzI-zYrjioqLOjK2BPJSQqLb-kBCh0CbbQ8yKdnqs81WQXcIANTkDzvcueprWuo_JKZnKsJpAs?key=JvwCIxJ4D3_YxZg0iSqTdA" alt=""><figcaption><p>Block Diagram</p></figcaption></figure>
 
 #### Components
 
