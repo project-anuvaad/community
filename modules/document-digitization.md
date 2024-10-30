@@ -174,10 +174,6 @@ This pipeline is used to extract text from a digital/scanned document. Lines and
 * **Input:** Output of block segmenter
 * **Output:** Text collation at word, line, and paragraph level using Google Vision as the OCR engine.
 
-**Github repo:** [OCR Google Vision Server](https://github.com/project-anuvaad/anuvaad/tree/develop/anuvaad-etl/anuvaad-extractor/document-processor/ocr/ocr-gv-server)
-
-**API contract:** [Google Vision API Contract](https://github.com/project-anuvaad/anuvaad/blob/develop/anuvaad-etl/anuvaad-extractor/document-processor/ocr/ocr-gv-server/doc/google-vision-api-contract.yml)
-
 ### Tesseract OCR
 
 * **Input:** Output of block segmenter
@@ -252,3 +248,7 @@ This pipeline is used to extract text from a digital/scanned document. Lines and
     ```
 
 </details>
+
+**Github repo:** [OCR Google Vision Server](https://github.com/project-anuvaad/anuvaad/tree/develop/anuvaad-etl/anuvaad-extractor/document-processor/ocr/ocr-gv-server)
+
+**API contract:** [Google Vision API Contract](https://github.com/project-anuvaad/anuvaad/blob/develop/anuvaad-etl/anuvaad-extractor/document-processor/ocr/ocr-gv-server/doc/google-vision-api-contract.yml)
