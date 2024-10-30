@@ -4,17 +4,15 @@ This microservice is used to extract text from a digital document in a structure
 
 ## Architecture
 
-- It takes an image or pdf as an input.
-- If the input is a pdf, it converts the pdf into images.
-- The `pdftohtml` tool is used to extract page-level information like text, word coordinates, page width, page height, tables, images, and others.
-- If the document language is vernacular, the `pdftohtml` tool does not work well, so we use Tesseract (Google Vision) for OCR.
-- Horizontal merging is used to get lines using word coordinates.
-- Vertical merging is used to get blocks using line coordinates.
-- The final JSON contains page-level information like page width, page height, paragraphs, lines, words, and layout class. 
-
-- **API Contract:** [here](#)
-- **Code location:** [here](#)
-
+* It takes an image or pdf as an input.
+* If the input is a pdf, it converts the pdf into images.
+* The `pdftohtml` tool is used to extract page-level information like text, word coordinates, page width, page height, tables, images, and others.
+* If the document language is vernacular, the `pdftohtml` tool does not work well, so we use Tesseract (or GV if required Alternatively) for OCR.
+* Horizontal merging is used to get lines using word coordinates.
+* Vertical merging is used to get blocks using line coordinates.
+* The final JSON contains page-level information like page width, page height, paragraphs, lines, words, and layout class.
+* **API Contract:** [here](block-merger.md)
+* **Code location:** [here](block-merger.md)
 
 ## Modules
 
@@ -75,13 +73,11 @@ Here it takes a PDF or image path as an input and the language of that document.
 
 #### Steps:
 
-1. **Upload a PDF or image file using the upload API:**
+1.  **Upload a PDF or image file using the upload API:**
 
     **Upload URL:** [https://auth.anuvaad.org/anuvaad-api/file-uploader/v0/upload-file](https://auth.anuvaad.org/anuvaad-api/file-uploader/v0/upload-file)
-
 2. **Get the upload ID and copy that to the path of wf-initiate input of the block merger.**
-
-3. **Do bulk search using jobIDs to get JSON ID of the BM service response:**
+3.  **Do bulk search using jobIDs to get JSON ID of the BM service response:**
 
     **Bulk search URL:** [https://auth.anuvaad.org/anuvaad-etl/wf-manager/v1/workflow/jobs/search/bulk](https://auth.anuvaad.org/anuvaad-etl/wf-manager/v1/workflow/jobs/search/bulk)
 
@@ -93,7 +89,6 @@ Here it takes a PDF or image path as an input and the language of that document.
         "taskDetails": true
     }
     ```
-
-4. **Download JSON using download API:**
+4.  **Download JSON using download API:**
 
     **Download URL:** [https://auth.anuvaad.org/download/0-1640069280533983.json](https://auth.anuvaad.org/download/0-1640069280533983.json)

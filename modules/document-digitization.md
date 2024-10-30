@@ -171,46 +171,12 @@ This pipeline is used to extract text from a digital/scanned document. Lines and
 
 </details>
 
-### Google OCR
-
 * **Input:** Output of block segmenter
 * **Output:** Text collation at word, line, and paragraph level using Google Vision as the OCR engine.
 
 **Github repo:** [OCR Google Vision Server](https://github.com/project-anuvaad/anuvaad/tree/develop/anuvaad-etl/anuvaad-extractor/document-processor/ocr/ocr-gv-server)
 
 **API contract:** [Google Vision API Contract](https://github.com/project-anuvaad/anuvaad/blob/develop/anuvaad-etl/anuvaad-extractor/document-processor/ocr/ocr-gv-server/doc/google-vision-api-contract.yml)
-
-<details>
-
-<summary>How to use: Google OCR</summary>
-
-1. **Input JSON file of the block segmenter as an input path.**
-2.  **Initiate the Google OCR Workflow:**
-
-    **WF URL:** [https://auth.anuvaad.org/anuvaad-etl/wf-manager/v1/workflow/async/initiate](https://auth.anuvaad.org/anuvaad-etl/wf-manager/v1/workflow/async/initiate)
-
-    **Google OCR Input:**
-
-    ```json
-    {
-        "files": [
-            {
-                "locale": "language",
-                "path": "block_segmenter_output",
-                "type": "json",
-                "config": {
-                    "OCR": {
-                        "option": "HIGH_ACCURACY",
-                        "language": "language"
-                    }
-                }
-            }
-        ],
-        "workflowCode": "WF_A_OTES"
-    }
-    ```
-
-</details>
 
 ### Tesseract OCR
 
@@ -248,6 +214,40 @@ This pipeline is used to extract text from a digital/scanned document. Lines and
             }
         ],
         "workflowCode": "WF_A_OD20TES"
+    }
+    ```
+
+</details>
+
+### Google OCR (Tesseract Alternative)
+
+<details>
+
+<summary>How to use: Google Vision OCR</summary>
+
+1. **Input JSON file of the block segmenter as an input path.**
+2.  **Initiate the Google OCR Workflow:**
+
+    **WF URL:** [https://auth.anuvaad.org/anuvaad-etl/wf-manager/v1/workflow/async/initiate](https://auth.anuvaad.org/anuvaad-etl/wf-manager/v1/workflow/async/initiate)
+
+    **Google OCR Input:**
+
+    ```json
+    {
+        "files": [
+            {
+                "locale": "language",
+                "path": "block_segmenter_output",
+                "type": "json",
+                "config": {
+                    "OCR": {
+                        "option": "HIGH_ACCURACY",
+                        "language": "language"
+                    }
+                }
+            }
+        ],
+        "workflowCode": "WF_A_OTES"
     }
     ```
 

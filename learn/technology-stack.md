@@ -8,7 +8,7 @@ description: Technology Stack
 
 | Component                                 | Details                                                                                               |
 | ----------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| [Apache Kafka](https://kafka.apache.org/) | Translator and [OpenNMT](https://opennmt.net/) are integrated through Kafka messaging.                |
+| [Apache Kafka](https://kafka.apache.org/) | Internal modules are integrated through Kafka messaging.                                              |
 | [MongoDB](https://www.mongodb.com/)       | Primary data storage.                                                                                 |
 | [Redis](https://redis.io/)                | Secondary in memory storage.                                                                          |
 | Cloud Storage                             | Samba storage is used to store user input files.                                                      |
@@ -17,10 +17,10 @@ description: Technology Stack
 
 ## AI ML Assets
 
-| Component                                                       | Details                                                                                                       |
-| --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
-| [PRIMA](https://github.com/Layout-Parser/layout-model-training) | Layout detection model.                                                                                       |
-| [Google Vision](https://cloud.google.com/vision)                | Used for OCR in Document Digitization v1.0 , v1.5. Replaced with custom trained Tesseract in latest versions. |
-| [CRAFT](https://github.com/clovaai/CRAFT-pytorch)               | Used for Line detection.                                                                                      |
-| [Tesseract](https://github.com/tesseract-ocr)                   | Custom trained Tesseract used for OCR.                                                                        |
-| [OpenNMT](https://opennmt.net/)                                 | Custom trained OpenNMT used for translation.                                                                  |
+| Component                                                       | Details                                                       |
+| --------------------------------------------------------------- | ------------------------------------------------------------- |
+| [PRIMA](https://github.com/Layout-Parser/layout-model-training) | Layout detection model.                                       |
+| [CRAFT](https://github.com/clovaai/CRAFT-pytorch)               | Used for Line detection.                                      |
+| [Tesseract](https://github.com/tesseract-ocr)                   | Custom trained Tesseract used for OCR.                        |
+| [IndicTrans2](https://github.com/AI4Bharat/IndicTrans2)         | Custom trained model used for translation.                    |
+| [Dhruva](https://github.com/AI4Bharat/Dhruva-Platform)          | open-source platform for serving language AI models at scale. |
